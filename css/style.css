@@ -56,4 +56,10 @@
         justify-content: center;
         align-items: center;
     }
+    .nn{
+        margin-top: 10px;
+    }
+    .nn1{
+        margin-top: -30px;
+    }
 }
