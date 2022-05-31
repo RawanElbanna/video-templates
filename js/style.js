@@ -11,12 +11,12 @@ function hideVideo(e) {
 $(document).ready(function () {
     $('.myimage').hide();
 
-    //When the Image is hovered upon, show the hidden div using Mouseover
+    //When the Image is hovered upon, hide the div using Mouseout 
     $('#vid1').mouseover(function () {
         $('.myimage1').hide();
     });
 
-    //When the Image is hovered away from, hide the div using Mouseout
+    //When the Image is hovered away from, show the hidden div using Mouseover
     $('#vid1').mouseout(function () {
         $('.myimage1').show();
     });
